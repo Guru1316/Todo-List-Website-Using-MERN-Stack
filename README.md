@@ -40,9 +40,6 @@ mern-todo/
 │ └── App.js, index.js, etc.
 └── package.json
 
-yaml
-Copy code
-
 ---
 
 ##  Getting Started
@@ -53,47 +50,34 @@ Copy code
 - MongoDB running locally or accessible via connection string  
 - (Optional) Git, VS Code, Postman for API testing
 
+
+
 ### Setup Backend
 
 1. Go to the backend folder:
    ```bash
    cd mern-todo/backend
 Install dependencies:
-
-bash
-Copy code
 npm install
-Create a .env file with the following:
 
-ini
-Copy code
+Create a .env file with the following:
 MONGO_URI=mongodb://127.0.0.1:27017/todo_db
 PORT=5000
+
 Start the server:
-
-bash
-Copy code
 npx nodemon server.js
-You should see:
 
-arduino
-Copy code
+You should see:
 ✅ MongoDB Connected
 🚀 Server running on port 5000
+
 Setup Frontend
 In a new terminal, navigate to the frontend:
 
-bash
-Copy code
 cd ../frontend
+
 Install frontend dependencies:
-
-bash
-Copy code
 npm install
-Run the React app:
 
-bash
-Copy code
+Run the React app:
 npm start
-Open your browser and visit: http://localhost:3000
