@@ -54,14 +54,14 @@ mern-todo/
 
 ### Setup Backend
 
-1. Go to the backend folder:
-   ```bash
-   cd mern-todo/backend
+Go to the backend folder:
+cd mern-todo/backend
+   
 Install dependencies:
 npm install
 
 Create a .env file with the following:
-MONGO_URI=mongodb://127.0.0.1:27017/todo_db
+MONGO_URI=mongodb://127.0.0.1:27017/todo_db    
 PORT=5000
 
 Start the server:
